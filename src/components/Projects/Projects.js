@@ -54,14 +54,14 @@ function Projects() {
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
+            <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink=""
-              demoLink=""
+              title="SocialBlitz Frontend"
+              description="The social media page is built with HTML, CSS, and JavaScript, offering users the ability to customize text size, color, and switch between light and dark modes. It allows posting text, images, or multimedia content with features for editing and sharing."
+              ghLink="https://github.com/saiyamjain26/SocialBlitz-"
+              demoLink="saiyamjain26.github.io/SocialBlitz-/"
             />
           </Col>
 
@@ -69,24 +69,24 @@ function Projects() {
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink=""
-              demoLink="" 
+              title="Sociopedia"
+              description="The MERN social media project allows secure user sign-in, profile creation, and friend connections using MongoDB. It offers features to add posts, like, comment, and interact within a community. With a React front-end and Node.js/Express.js backend, users can seamlessly engage by sharing content and connecting with friends in a user-friendly interface."
+              ghLink="https://github.com/saiyamjain26/SocialMedia"
+              demoLink="https://socialblitz.vercel.app/" 
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink=""
-              demoLink=""    
-            />
-          </Col> */}
+          // <Col md={4} className="project-card">
+          //   <ProjectCard
+          //     imgPath={emotion}
+          //     isBlog={false}
+          //     title="Face Recognition and Emotion Detection"
+          //     description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
+          //     Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
+          //     ghLink=""
+          //     demoLink=""    
+          //   />
+          // </Col> */}
         </Row>
       </Container>
     </Container>
