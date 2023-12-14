@@ -54,12 +54,12 @@ function Projects() {
             />
           </Col>
 
-            <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
               title="SocialBlitz Frontend"
-              description="The social media page is built with HTML, CSS, and JavaScript, offering users the ability to customize text size, color, and switch between light and dark modes. It allows posting text, images, or multimedia content with features for editing and sharing."
+              description="The social media page is built with HTML, CSS, and JavaScript, offering users the ability to customize text size, color, and switch between light and dark modes. It allows posting text, images, or multimedia content with features for editing and sharing. fostering a dynamic and interactive social networking experience."
               ghLink="https://github.com/saiyamjain26/SocialBlitz-"
               demoLink="saiyamjain26.github.io/SocialBlitz-/"
             />
@@ -70,13 +70,13 @@ function Projects() {
               imgPath={suicide}
               isBlog={false}
               title="Sociopedia"
-              description="The MERN social media project allows secure user sign-in, profile creation, and friend connections using MongoDB. It offers features to add posts, like, comment, and interact within a community. With a React front-end and Node.js/Express.js backend, users can seamlessly engage by sharing content and connecting with friends in a user-friendly interface."
+              description="The MERN project allows secure user sign-in, profile creation, and friend connections using MongoDB. It offers features to add posts, like, comment, and interact within a community. With a React front-end and Node.js/Express.js backend, users can seamlessly engage by sharing content and connecting with friends in a user-friendly interface."
               ghLink="https://github.com/saiyamjain26/SocialMedia"
               demoLink="https://socialblitz.vercel.app/" 
             />
           </Col>
 
-          // <Col md={4} className="project-card">
+           {/* <Col md={4} className="project-card">
           //   <ProjectCard
           //     imgPath={emotion}
           //     isBlog={false}
