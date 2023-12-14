@@ -61,7 +61,7 @@ function Projects() {
               title="SocialBlitz Frontend"
               description="The social media page is built with HTML, CSS, and JavaScript, offering users the ability to customize text size, color, and switch between light and dark modes. It allows posting text, images, or multimedia content with features for editing and sharing. fostering a dynamic and interactive social networking experience."
               ghLink="https://github.com/saiyamjain26/SocialBlitz-"
-              demoLink="saiyamjain26.github.io/SocialBlitz-/"
+              demoLink="https://saiyamjain26.github.io/SocialBlitz-/"
             />
           </Col>
 
